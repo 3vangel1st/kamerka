@@ -1,12 +1,14 @@
+This repository is a fork of the original Kamerka project. I'm adding more devices and functionality to it for OSINT purposes
+=============================================================================================================================
+
+
 # ꓘamerka 2.0 aka FIST (Flickr, Instagram, Shodan, Twitter)
 *Build interactive map of cameras, printers, tweets and photos.* 
 
 The script creates a map of cameras, printers, tweets and photos based on your coordinates. Everything is clearly presented in form of interactive map with icons and popups.
 
-Detailed write-up
-https://medium.com/@woj_ciech/hunting-with-%EA%93%98amerka-2-0-aka-fist-flickr-instagram-shodan-twitter-ca363f12562a
-
-Previous version https://medium.com/@woj_ciech/%EA%93%98amerka-build-interactive-map-of-cameras-from-shodan-a0267849ec0a
+# v5 update 27/11/2019
+Added more ICS devices
 
 # v4 update
 Added RTSP (Real-Time Streaming Protocol)

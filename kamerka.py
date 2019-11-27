@@ -172,16 +172,33 @@ marker_cluster = MarkerCluster().add_to(folium_map)
 
 #Instagram authentication and request
 # noinspection PyShadowingNames
-ics_queries = ["port:502,102,47808,44818,5094 country:",
-"port:1911,4911 product:niagara country:",
-"port:20000 source address country:",
-'product:"general electric" country:',
-"port:20547,1962 PLC country:",
-"product:mitsubishi country:",
-"port:9600 response code country:",
-'port:789 product:"Red Lion Controls" country:',
-"port:2404 asdu address country:",
-"port:2455 operating system country:"]
+ics_queries = ["port:1911,4911 product:Niagara country:",
+               "port:47808 country:",
+               "port:502 country:",
+               'Original Siemens Equipment Basic Firmware: country:',
+               "port:20000 source address country:",
+               "port:44818 country:",
+               'port:18245,18246 product:"general electric" country:',
+               "port:5094 hart-ip country:",
+               "port:1962 PLC country:",
+               'port:5006,5007 product:"mitsubishi" country:',
+               "port:9600 response code country:",
+               'port:789 product:"Red Lion Controls" country:',
+               "port:2455 operating system country:",
+               "port:2404 asdu address country:",
+               "port:20547 PLC country:",
+               "Server: CarelDataServer country:",
+               "iologik country:",
+               "Moxa country:",
+               "Server: AKCP Embedded Web Server country:",
+               "powered by SpiderControl TM country:",
+               "port:10001 tank country:",
+               "Server: IQ3 country:",
+               "IS2 Web Server country:",
+               "Server: VTScada country:",
+               "Z-World Rabbit 200 OK country:",
+               "Jetty 3.1.8 (Windows 2000 5.0 x86) \"200 OK\" country:",
+               "http.favicon.hash:-1222972060 country:",]
 
 
 def save_elastic(index, doc_type, body):

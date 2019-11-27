@@ -211,7 +211,8 @@ ics_queries = ["port:1911,4911 product:Niagara country:",
                'port:104 "dicom server response" country:',
                'Server: "Microsoft-WinCE", "Content-Length: 12581"',
                "port:2455,Nucleus country:",
-               "port:2455,Linux country:",]
+               "port:2455,Linux country:"
+               "port:80 EnergyICT RTU country:",]
 
 
 def save_elastic(index, doc_type, body):

@@ -752,7 +752,7 @@ def draw_map(results, service, lat=None, lon=None):
 
     if service == "ics":
         color = "%06x" % random.randint(0, 0xFFFFFF)
-        factory_icon = "https://www.iconsdb.com/icons/download/color/"+color+"/factory-128.png"
+        factory_icon = "https://cdn4.iconfinder.com/data/icons/REALVISTA/accounting/png/400/industry.png"
         unique_coordinates_ics = []
 
         for counter, printer in enumerate(results['matches']):

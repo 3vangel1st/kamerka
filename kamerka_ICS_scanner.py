@@ -215,7 +215,20 @@ ics_queries = ["port:1911,4911 product:Niagara country:",
                "port:80 EnergyICT RTU country:",
                "Server: DELTA enteliTOUCH country:",
                "port:9999 lantronix country:",
-               "port:30718 lantronix country:",]
+               "port:30718 lantronix country:",
+               "port:4800 Moxa Nport country:",
+               "title: NPort web console country:",
+               "MoxaHttp country:",
+               "port:8080 WindWeb country:",
+               "TransPort WR21 country:",
+               "Server: CarelDataServer country:",
+               "EIG Embedded Web Server country:",
+               "VxWorks country:",
+               "HMI, XP277 country:",
+               "powered by SpiderControl TM country:",
+               "modicon country:",
+               "port:2404 ASDU country:",
+               "PLC Type: AXC country:", ]
 
 
 def save_elastic(index, doc_type, body):

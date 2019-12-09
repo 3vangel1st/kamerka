@@ -38,6 +38,7 @@ desc = "              o#######o\n\
                            ^-;@@@@\n\
 ꓘamerka 2.0 (FIST) - Build interactive map of cameras, tweets and photos\n\
 medium.com/@woj-ciech github.com/woj_ciech\n\n\
+ICS Fork by @ChristiaanBeek\n\n\
 python kamerka.py -h\n\
 Example: python kamerka.py --lat \"37.235 --lon 115.811111\" --dark --twitter --camera --printer\n\"" \
        "python kamerka.py --country RU"

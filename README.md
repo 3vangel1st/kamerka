@@ -8,6 +8,9 @@ Seperate from the original code, I'm working on adding more ICS devices and func
 
 The script creates a map of cameras, printers, tweets and photos based on your coordinates. Everything is clearly presented in form of interactive map with icons and popups.
 
+# v6 update 09/12/2019
+Added 12 more ICS devices - supporting over 56 devices now
+
 # v5 update 27/11/2019
 Added more ICS devices
 ![](https://i.imgur.com/oHLL1YH.png)
